@@ -587,10 +587,10 @@
   }
   
   .section-header h2 {
-    color: #008080;
-     font-family: var(--ff-abril-fatface);
-     font-weight: var(--fw-500);
-    font-size: 3em;
+  color: #CD7F32;
+    font-size: var(--fs-3);
+    --ff-heebo: 'Heebo', sans-serif;
+    font-weight: var(--fw-500);
     margin-bottom: 20px;
   }
   
