@@ -617,7 +617,7 @@
   .contact-info-icon {
     height: 70px;
     width: 70px;
-    background-color:  #CD7F32;
+    background-color:  #FF7F50;
     text-align: center;
     border-radius: 50%;
   }
@@ -625,7 +625,7 @@
   .contact-info-icon i {
     font-size: 30px;
     line-height: 70px;
-    color: #4d2905;
+    color: black;
   }
   
   .contact-info-content {
@@ -633,7 +633,7 @@
   }
   
   .contact-info-content h4 {
-    color: #CD7F32;
+    color: #FF7F50;
     font-size: 1.4em;
     margin-bottom: 5px;
   }
@@ -690,13 +690,13 @@
   .contact-form .input-box input[type="submit"]
   {
     width: 100%;
-    background: #CD7F32;
+    background:#FF7F50 ;
     color: #FFF;
     border: none;
     cursor: pointer;
     padding: 10px;
     font-size: 18px;
-    border: 1px solid #CD7F32;
+    border: 1px solid #FF7F50;
     transition: 0.5s;
   }
   
