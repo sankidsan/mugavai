@@ -2,8 +2,6 @@
 
 :root {
 
-
-
     --battleship-gray: hsl(0, 0%, 53%);
     --viridian-green: #FF7F50;
     --silver-chalice: hsl(0, 0%, 69%);
@@ -19,11 +17,6 @@
     --white-1: hsl(0, 0%, 100%);
     --black: hsl(0, 0%, 0%);
     --jet: #008080;
-  
-    /**
-     * typography
-     */
-  
     --ff-abril-fatface: 'Abril Fatface', cursive;
     --ff-comforter-brush: 'Comforter Brush', cursive;
     --ff-heebo: 'Heebo', sans-serif;
@@ -41,37 +34,13 @@
     --fw-500: 500;
     --fw-600: 600;
     --fw-700: 700;
-  
-    /**
-     * border radius
-     */
-  
     --radius-6: 6px;
-  
-    /**
-     * spacing
-     */
-  
     --section-padding: 40px;
-  
-    /**
-     * transition
-     */
-  
     --transition-1: 0.15s ease;
     --transition-2: 0.35s ease;
     --cubic-out: cubic-bezier(0.33, 0.85, 0.56, 1.02);
   
   }
-  
-  
-  
-  
-  
-  /*-----------------------------------*\
-    #RESET
-  \*-----------------------------------*/
-  
   *,
   *::before,
   *::after {
@@ -126,15 +95,6 @@
   ::-webkit-scrollbar-thumb { background: hsl(0, 0%, 80%); }
   
   ::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
-  
-  
-  
-  
-  
-  /*-----------------------------------*\
-    #REUSED STYLE
-  \*-----------------------------------*/
-  
   .container { padding-inline: 15px; }
   
   .btn {
@@ -266,15 +226,6 @@
   :is(.popular, .blog) .card-title > a { color: inherit; }
   
   :is(.popular, .blog) .card-title > a:is(:hover, :focus) { color: var(--viridian-green); }
-  
-  
-  
-  
-  
-  /*-----------------------------------*\
-    #HEADER
-  \*-----------------------------------*/
-  
   .header {
     background: var(--viridian-green);
     padding-block: 20px;
@@ -587,11 +538,13 @@
   }
   
   .section-header h2 {
-    color: #CD7F32;
-    font-size: var(--fs-3);
-    --ff-heebo: 'Heebo', sans-serif;
-    font-weight: var(--fw-500);
-    margin-bottom: 20px;
+
+  color: #CD7F32;
+  color: #CD7F32;
+  font-size: var(--fs-3);
+  --ff-heebo: 'Heebo', sans-serif;
+  font-weight: var(--fw-500);
+  margin-bottom: 20px;
   }
   
   .section-header p {
@@ -691,6 +644,7 @@
   {
     width: 100%;
     background: #FF7F50;
+    background:#FF7F50 ;
     color: #FFF;
     border: none;
     cursor: pointer;
@@ -1006,30 +960,10 @@
   
     }
   
-  
-  
-    /**
-     * REUSED STYLE
-     */
-  
     .container { max-width: 1150px; }
   
     :is(.popular, .blog) .card-content { padding: 30px; }
-  
-  
-  
-    /**
-     * HEADER
-     */
-  
     .navbar-list { gap: 50px; }
-  
-  
-  
-    /**
-     * ABOUT
-     */
-  
     .about .container { grid-template-columns: 0.7fr 1fr; }
   
   }
